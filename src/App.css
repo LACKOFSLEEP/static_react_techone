@@ -1,0 +1,601 @@
+.App {
+  /* text-align: center; */
+}
+
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  font-family: 'FibonacciSans', sans-serif !important;
+}
+
+header {
+  display: block;
+}
+
+.top-strip {
+  top: 0;
+  background-color: #020810 !important;
+  position: absolute;
+  z-index: 500000;
+  left: 0;
+  padding: 10px 30px;
+  text-align: center;
+  width: 100%;
+  color: #fff;
+  border-color: transparent;
+}
+
+.top-strip-cont {
+  width: 100%;
+  max-width: calc(100% - 80px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 68px;
+  margin: 0 auto;
+}
+
+.top-strip-logo {
+  max-width: 200px;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+}
+
+.mod--banner{
+  padding-top: 3rem;
+}
+
+.mod--curved {
+  font-weight: 400;
+  font-size: 15px;
+  text-transform: none;
+  text-size-adjust: 100%;
+  line-height: 1.3;
+  margin: 0;
+  background-size: cover;
+  overflow: hidden;
+  padding: 80px 0 0  0;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+  color: #fff;
+  flex-wrap: wrap;
+  z-index: 1;
+  position: relative;
+  background-image: url('https://www.technologyonecorp.com/?a=211350');
+  min-height: 740px;
+  clip-path: ellipse(113vw 450px at 50vw 285px);
+  background-position: 50% 35%;
+  height: auto !important;
+}
+
+.p-header__cont {
+  width: 45%;
+  mix-blend-mode: overlay;
+  position: relative;
+}
+
+.p-header__title {
+  font-size: 58px;
+  max-width: 66%;
+  margin: 0 auto;
+
+  margin-top: -190px;
+  line-height: 3.4rem;
+  text-align: left;
+}
+
+.p-header__cta {
+
+  margin: 48px auto 0 auto;
+  max-width: 66%;
+  position: absolute;
+  left: 8%;
+  padding-top: 50px;
+}
+
+.p-header__cta a {
+
+  margin: 0;
+  text-decoration: none;
+  outline: initial;
+  -webkit-tap-highlight-color: initial;
+  padding: 2px 25px;
+  line-height: 32px;
+  height: 40px;
+  -webkit-box-sizing: border-box;
+  cursor: pointer;
+  text-align: center;
+  user-select: none;
+  background-color: #09b5d1!important;
+  border: 2px solid #09b5d1!important;
+  font-size: initial !important;
+  color: #fff !important;
+  border-radius: 6px !important;
+  font-weight: 600 !important;
+  box-shadow: none !important;
+  background: #febe11;
+  display: inline-block;
+  position: relative;
+}
+
+.logo-cont {
+  color: #000810 !important;
+  font-family: 'FibonacciSans', sans-serif!important;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  padding: 0 0 40px;
+  border-bottom: none;
+  background: 0 0 !important;
+}
+
+.logo-cont ul {
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+  align-items: center;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  width: 100%;
+  max-width: 1340px;
+  justify-content: space-around;
+  max-height: 168px;
+  position: relative;
+}
+
+.logo-cont ul li {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 168px;
+  width: 196px;
+  /* padding: 20px 40px; */
+  justify-content: center;
+  position: relative;
+  filter: grayscale(30%);
+}
+
+.logo-cont ul li img {
+  opacity: .65;
+  max-height: 75px;
+  max-width: 128px;
+}
+
+.logo-cont__link {
+
+  font-weight: 700;
+  line-height: 20px;
+  padding: 0 26px 0 0;
+  padding-left: 26px;
+  position: relative;
+  z-index: 2;
+  margin: 0 auto;
+  opacity: .8;
+  color: #febe10 !important;
+}
+
+.bg-homegrown {
+  background-color: #003f30 !important;
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  position: relative;
+}
+
+.simple-b__cont-cont {
+  position: relative;
+  z-index: 1;
+}
+
+.simple-b__cont {
+  width: 100%;
+  max-width: 1460px;
+  margin: 0 auto;
+  text-align: left;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+}
+
+.simple-b__left {
+  max-width: 470px;
+  padding: 20px 40px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+.simple-b__left__head {
+  font-weight: 800;
+  font-size: 48px;
+}
+
+.simple-b__left__par {
+  margin-top: 30px;
+  width: 100%;
+}
+
+.btn-homegrown-light {
+  background-color: #008662 !important;
+  border: 2px solid #008662 !important;
+  height: 40px;
+  display: inline-flex; 
+  align-items: center; 
+  color: #010810;
+  padding: 2px 25px;
+  text-decoration: none;
+  text-align: center;
+  margin: 0;
+  border-radius: 5px; 
+}
+
+
+.animato-container {
+  flex-direction: row-reverse;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 140px 40px
+}
+
+.animato .anim_3layer {
+  max-width: 500px;
+  max-height: 500px;
+  width: calc(100vw - 50px);
+  height: calc(100vw - 50px);
+  position: relative;
+  perspective: 500px;
+  -webkit-perspective: 500px;
+  text-align: center;
+}
+
+.animato__text {
+  max-width: 500px;
+}
+
+.h-xxxl {
+  font-size: 42px;
+  
+}
+
+.sml-gallery {
+  padding: 100px 40px;
+  background: #000810 !important;
+  color: white; 
+}
+
+.sml-gallery__header {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.sml-gallery>* {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+.sml-gallery__intro {
+  font-size: 24px;
+  max-width: 700px;
+  text-align: center;
+}
+.simple-b {
+  background: #000810 !important;
+  color: white; 
+}
+.simple-b__cont {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 100%;
+  max-width: 1460px;
+  margin: 0 auto;
+  text-align: left;
+  box-sizing: border-box;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+}
+
+.simple-b__right {
+  max-width: 270px;
+  max-height: 390px;
+  margin: 20px 70px;
+  background-image: url(https://www.technologyonecorp.com/?a=124731);
+  background-size: cover;
+  background-position: 50% 100%;
+  background-repeat: no-repeat;
+  display: inline-flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  width: 39vw;
+  height: 39vw;
+}
+
+.simple-b--sml-img .simple-b__left {
+  max-width: 880px;
+}
+
+.iconic-blocks {
+  padding: 140px 40px 110px;
+  text-align: center;
+}
+
+.bg-bluish--g {
+  background-color: #e6eaf0;
+  background-image: linear-gradient(-30deg, #e6eaf0 0, #f9f9f9 100%);
+}
+
+.iconic-blocks__head {
+  color: #febe10 !important;;
+  font-size: 36px;
+  max-width: 900px;
+  margin: 0 auto 20px auto;
+}
+
+.iconic-blocks__intro {
+  max-width: 700px;
+  margin: 0 auto 20px auto;
+  font-size: 20px;
+  text-align: left;
+}
+
+.iconic-blocks__blocks {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding-top: 10px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
+  list-style-type: none;
+}
+
+.iconic-blocks__blocks__block {
+  margin: 30px auto;
+  -webkit-box-sizing: border-box;
+  padding: 0 0 40px;
+  width: calc(33.33% - 60px);
+  border-radius: 6px;
+  text-align: center;
+  position: relative;
+  transition: all .3s ease;
+  top: 0;
+  overflow: hidden;
+  padding-bottom: 110px;
+  background: #fff;
+  box-shadow: 0 8px 30px 0 rgba(0,0,0,.15);
+}
+
+.iconic-blocks__blocks__block__img {
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  height: 300px;
+  margin-bottom: 30px;
+}
+
+.iconic-blocks__blocks__block__header {
+  margin: 0;
+  margin-block-end: 0;
+  margin-block-start: 0;
+  color: #f45197;
+  margin-bottom: 10px;
+  font-size: 20px;
+  padding: 0 30px;
+  text-align: left;
+}
+
+.iconic-blocks__blocks__block__content {
+  text-align: left;
+  padding: 0 30px;
+}
+
+
+.iconic-blocks__blocks__block__link {
+  width: 100%;
+  text-align: center;
+  left: 0;
+  position: absolute;
+  bottom: 40px;
+}
+
+.btn--sml {
+  
+  line-height: 32px;
+  font-size: 16px;
+
+  cursor: pointer;
+  text-align: center;
+  user-select: none;
+  padding: 0 25px;
+  height: 36px;
+  border-radius: 6px !important;
+  font-weight: 600 !important;
+  box-shadow: none !important;
+  background: #febe11;
+  border: 2px solid #febe11;
+  color: #010810;
+  display: inline-block;
+}
+
+.contact-snippet {
+  padding: 100px 30px;
+  position: relative;
+  z-index: 9;
+  background-color: #f9f9f9 !important;
+}
+
+.contact-snippet__cont {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+
+.contact-snippet__left {
+  background-color: #f4fdff;
+  text-align: center;
+  width: calc(100vw - 80px);
+  max-width: 320px;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: inset 0 10px 40px 0 rgba(0,7,56,.2);
+}
+.contact-snippet__left img {
+  max-width: 100%;
+  max-height: 100%;
+  position: relative;
+  bottom: -20px;
+}
+
+.contact-snippet__right {
+  padding: 0 80px;
+}
+
+.contact-snippet__right__header {
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+
+.contact-snippet__right__cta {
+  margin-top: 20px;
+}
+
+.footer {
+  color: #fff;
+  background: #020810 !important;
+  text-align: center;
+  padding: 0 10px;
+}
+
+.footer__links {
+  padding-bottom: 0;
+  border-bottom: 1px solid #e8a02c;
+  flex-wrap: wrap;
+}
+
+.footer>* {
+  margin: 0 auto;
+  text-align: left;
+  width: 100%;
+  max-width: 1004px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  padding: 50px 20px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.footer__links__section {
+  display: inline-block;
+  padding: 0 20px;
+  margin-bottom: 40px;
+}
+
+.footer__links a {
+  display: inline-block;
+  line-height: 18px;
+  position: relative;
+  padding: 5px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  margin: 2px 0 2px -5px;
+  white-space: nowrap;
+}
+
+.footer__bottom {
+  padding: 30px 0 40px;
+  align-items: center;
+  color: rgba(255, 255, 255, .6);
+  font-size: 16px;
+  flex-wrap: wrap-reverse;
+}
+
+.footer__bottom>div {
+  margin: 15px 0;
+  padding: 0 40px;
+}
+
+.footer__bottom__notice ul {
+  font-size: 14px;
+  color: #fff;
+  margin-bottom: 5px;
+  flex-direction: row;
+  display: flex;
+}
+
+.footer__bottom__notice ul a {
+  position: relative;
+  padding: 5px;
+}
+
+.footer__bottom__social {
+  display: flex;
+  justify-content: space-between;
+  max-width: 141px;
+  width: 100%;
+}
+
+.footer__bottom__social__btn {
+  width: 24px;
+  height: 24px;
+  font-size: 0;
+  background: 0 0;
+  opacity: .6;
+}
+
+.footer__bottom__social__btn.linkedin {
+  background-image: url(https://www.technologyonecorp.com?a=107921);
+  background-size: 528px 144px;
+  background-position: -396px -60px;
+  width: 24px;
+  height: 24px;
+}
+
+.footer__bottom__social__btn.twitter {
+  background-image: url(https://www.technologyonecorp.com?a=107921);
+  background-size: 528px 144px;
+  background-position: -444px -60px;
+  width: 24px;
+  height: 24px;
+}
+
+.footer__bottom__social__btn.facebook {
+  background-image: url(https://www.technologyonecorp.com?a=107921);
+  background-size: 528px 144px;
+  background-position: -348px -60px;
+  width: 24px;
+  height: 24px;
+}
+
+.footer__bottom__social__btn.instagram {
+  background-image: url(https://www.technologyonecorp.com?a=107921);
+  background-size: 528px 144px;
+  background-position: -492px -60px;
+  width: 24px;
+  height: 24px;
+}
